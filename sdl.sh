@@ -1,6 +1,12 @@
 #!/bin/bash
 #Written by Sarah Williams 2020
 
+if ! command -v spotdl &> /dev/null
+then
+    echo "Please make sure the Spotify-Downloader has been installed."
+    exit
+fi
+
 echo "Options: Album, Artist, Song, Playlist, User"
 read option
 
