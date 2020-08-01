@@ -8,4 +8,5 @@ $ bash sdl.sh
   
 Default storage directory is currently ~/Music   
 
-remove .sh and copy to /bin/ folder to call command from anywhere.
+remove .sh and copy to /bin/ folder to call command from anywhere as,  
+$ sdl  
