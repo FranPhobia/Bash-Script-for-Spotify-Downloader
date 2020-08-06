@@ -15,14 +15,14 @@ then
     echo "Paste spotify album link"
     read album_link
     spotdl -a $album_link --write-to ~/Music/temp-list.txt        #create list of album songs
-    spotdl -l ~/Music/temp-list.txt -q best -overwrite skip -f ~/Music/{artist}/{album}/{track-name}.{output-ext}
+    spotdl -l ~/Music/temp-list.txt -q best --overwrite skip -f ~/Music/{artist}/{album}/{track-name}.{output-ext}
     rm ~/Music/temp-list.txt
 elif [ $option = "Artist" ] || [ $option = "artist" ]
 then
     echo "Paste spotify Artist link"
     read artist_link
     spotdl -aa $artist_link --write-to ~/Music/temp-list.txt     #create list of artist songs
-    spotdl -l ~/Music/temp-list.txt -q best -overwrite skip -f ~/Music/{artist}/{album}/{track-name}.{output-ext}
+    spotdl -l ~/Music/temp-list.txt -q best --overwrite skip -f ~/Music/{artist}/{album}/{track-name}.{output-ext}
     rm ~/Music/temp-list.txt
 elif [ $option = "Song" ] || [ $option = "song" ]
 then
@@ -34,7 +34,7 @@ then
     echo "Paste spotify Playlist link"
     read playlist_link
     spotdl -p $playlist_link --write-to ~/Music/temp-list.txt
-    spotdl -l ~/Music/temp-list.txt -q best -overwrite skip -f ~/Music/{artist}/{album}/{track-name}.{output-ext}
+    spotdl -l ~/Music/temp-list.txt -q best --overwrite skip -f ~/Music/{artist}/{album}/{track-name}.{output-ext}
     rm ~/Music/temp-list.txt
 elif [ $option = "User" ] || [ $option = "user" ]
 then
