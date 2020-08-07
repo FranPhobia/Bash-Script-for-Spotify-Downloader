@@ -11,3 +11,7 @@ Remove .sh and copy to /bin/ folder to call command from anywhere as,
 $ spdl   
 ```  
 Make sure file has executable permissions ($ chmod +x spdl.sh )
+
+
+
+![alt text](https://github.com/FranPhobia/main/blob/master/spdl.gif "spdl usage") 
