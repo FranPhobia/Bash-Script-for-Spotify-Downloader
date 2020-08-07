@@ -6,8 +6,6 @@ Run program with,
 ```  
 $ bash spdl.sh
 ```  
-Default storage directory is currently ~/Music   
-
 Remove .sh and copy to /bin/ folder to call command from anywhere as,  
 ```
 $ spdl   
