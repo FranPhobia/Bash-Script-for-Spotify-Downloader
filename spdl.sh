@@ -1,5 +1,6 @@
 #!/bin/bash
 #Written by Sarah Williams 2020
+# Copyright GNU
 
 
 #Check if spotifydl is installed 
@@ -121,5 +122,3 @@ else
     echo "please enter a valid option"
 fi
 
-
-#spotdl -l temp-list.txt -q best -f ~/Music/{artist}/{album}/{track-name}.{output-ext}        #download from list best quality mp3
