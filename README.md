@@ -14,4 +14,4 @@ Make sure file has executable permissions ($ chmod +x spdl.sh )
 
 
 
-![alt text](https://github.com/FranPhobia/main/blob/master/spdl.gif "spdl usage") 
+![alt text](https://github.com/FranPhobia/Bash-Script-for-Spotify-Downloader/blob/master/local/spdl.gif "spdl usage") 
